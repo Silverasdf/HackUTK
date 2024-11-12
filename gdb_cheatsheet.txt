@@ -1,0 +1,19 @@
+x [addr] -> dereference an address e.g. x 0x40404040
+
+x/s [addr]-> derefence an address as a string 
+
+x/[num]x -> deferences num bytes 
+
+layout asm -> change the layout to assembly mode (see the assembly code)
+
+disassemble [function] -> shows the assembly code of a function
+
+info registers -> shows the values of all registers
+
+b [breakpoint (address or line of code, if available)] -> sets a breakpoint, meaning your code STOPS EXECUTION at a point 
+
+r [args] -> runs the program with args
+
+%ebp -> frame pointer
+%esp -> stack pointer
+%eax -> return value register
